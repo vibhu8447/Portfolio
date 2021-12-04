@@ -11,7 +11,7 @@ const ProjectCard = ({
     return (
         <div className='project-card'>
             <div className='image-container'>
-                <a href={projectUrl} target="_blank" className='project-external-link'>
+                <a href={projectUrl} target="_blank" rel="noreferrer" className='project-external-link'>
                     <img
                         src={imageUrl}
                         alt='project'
