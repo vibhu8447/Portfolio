@@ -60,7 +60,7 @@ class NavBar extends React.Component {
                 <Link to='/contact' onClick ={()=>this.closeMenu()} className={`menu-item ${contactClass}`}>
                     Contact
                 </Link>
-                <a href ='https://drive.google.com/file/d/1p6AKwBPVO3pRUr4AsJM_2JBnPi9DpzoU/view?usp=sharing' target="_blank" className={`menu-item ${contactClass}`}>
+                <a href ='https://drive.google.com/file/d/1p6AKwBPVO3pRUr4AsJM_2JBnPi9DpzoU/view?usp=sharing' target="_blank" rel="noreferrer" className={`menu-item ${contactClass}`}>
                     Resume
                 </a>
             </Menu>
