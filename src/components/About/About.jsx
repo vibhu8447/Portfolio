@@ -21,6 +21,7 @@ const About = () => {
                     A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.{' '}
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             className='about-link-element'
                             href='https://github.com/vibhu8447'
                         >
@@ -36,6 +37,7 @@ const About = () => {
                         <a
                             target="_blank"
                             className='about-link-element'
+                            rel="noreferrer"
                             href='https://www.codechef.com/users/vibhu8447'
                         >
                             my Cp profile today!
