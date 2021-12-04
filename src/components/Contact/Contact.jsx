@@ -47,11 +47,15 @@ const Contact = () => {
 
             {/* Social icons */}
             <div className='social-icons-container'>
-                <a href= 'https://github.com/vibhu8447' target="_blank" className='social-icon'>
-                    <img src={github} alt='social' />
+                <a href= 'https://github.com/vibhu8447'
+                       target="_blank"
+                       rel="noreferrer"                   
+                       className='social-icon'>
+                       <img src={github} alt='social' />
                 </a>
                 <a
                     target="_blank"
+                    rel="noreferrer"
                     href='https://www.linkedin.com/in/vibhu8447/'
                     className='social-icon'
                 >
@@ -59,6 +63,7 @@ const Contact = () => {
                 </a>
                 <a
                     target="_blank"
+                    rel="noreferrer"
                     href='https://www.codechef.com/users/vibhu8447'
                     className='social-icon'
                 >
