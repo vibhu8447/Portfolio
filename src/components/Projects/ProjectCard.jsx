@@ -23,7 +23,7 @@ const ProjectCard = ({
             <div className='project-details-container'>
                 <h2 className='project-heading'>{projectName}</h2>
                 <p className='project-details'>{projectDescription}</p>
-                <a href={gitUrl} target="_blank" className='project-yt-link'>
+                <a href={gitUrl} target="_blank" rel="noreferrer" className='project-yt-link'>
                     See More!
                 </a>
             </div>
