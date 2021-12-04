@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import proj1 from './../../assets/proj1.PNG';
 const ProjectCard = ({
     projectName,
     projectDescription,
